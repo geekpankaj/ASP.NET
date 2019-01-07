@@ -1,0 +1,206 @@
+﻿body {
+    margin-top: 0px;
+}
+/*Pankaj Talwar #300986202*/ 
+.btnstyle, .btnstylecan {
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin-left: 5px;
+}
+setupdisp 
+{
+    margin:30px;
+    
+}
+.logout {
+    background-color: #c4fbbc;
+    color: forestgreen;
+    float: right;
+}
+.btnstylecan {
+    background-color: firebrick;
+}
+
+.clubdetails {
+    width: 50%;
+    display: inline-block;
+}
+
+    .clubdetails td {
+        width: 100%;
+    }
+
+    .clubdetails tr {
+        height: 50px;
+    }
+
+.player {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.playerdetails {
+    width: 100%;
+}
+/*Pankaj Talwar #300986202*/ 
+.inputtext {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.error_msg {
+    margin: 10px;
+}
+
+.inputlabel {
+    margin-left: 10px;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
+}
+
+.top-head, menubar {
+   
+    margin: 0;
+    height: 40px;
+}
+    /*Pankaj Talwar #300986202*/ 
+.top-head ul, .menubar ul {
+        margin: 0;
+        height: 100%;
+        padding: 0;
+        float: right;
+        text-decoration: none;
+        list-style: none;
+}
+
+.content1 {
+    font-family: cursive;
+}
+
+.menubar ul {
+   
+    justify-content:center;
+   
+    font-family: cursive;
+}
+
+    .top-head ul li, .menubar ul li {
+        text-align: right;
+        padding: 10px;
+    }
+
+    .menubar ul li {
+        text-align: center;
+        display: inline-block;
+    }
+
+.top-head ul li:hover {
+    background-color: #90dd85;
+}
+
+.menubar ul li:hover {
+    text-shadow: none;
+    font-weight: bolder;
+}
+
+.top-head ul li a, .menubar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.menubar ul li a {
+    color: #c4fbbc;
+    font-size: 1.2em;
+}
+
+.logo {
+    width: 131px;
+    height: 129px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+    .logo img {
+        width: auto;
+        align-content: center;
+    }
+
+.title {
+    font-family: cursive;
+    font-size: 50px;
+    font-variant: small-caps;
+    display: inline-block;
+    margin-left: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+/*Pankaj Talwar #300986202*/ 
+.menubar {
+    margin: 0;
+    position: relative;
+    height: 40px;
+}
+
+    .menubar ul li ul li {
+        display: none;
+    }
+
+    .menubar ul li ul:hover {
+        display: block;
+    }
+
+.footer, .footerdrk {
+    text-align: center;
+    height: 100px;
+    font-family: cursive;
+    background-color: #19bf00;
+    color: white;
+    bottom: 0;
+   
+}
+
+.footerdrk {
+    background-color: #074402;
+    height: 50px;
+}
+
+.about {
+    width: 30%;
+    display: inline-block;
+}
+
+    .about img {
+        width: 100%;
+        height: 250px;
+        text-align: center;
+    }
+
+.about-text {
+    width: 60%;
+    font-family: cursive;
+    text-align: justify;
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 2%;
+    vertical-align: top;
+}
+
+.content1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.homecontent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*Pankaj Talwar #300986202*/ 

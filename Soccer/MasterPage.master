@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+<!--Pankaj Talwar #300986202-->
+<html>
+<head runat="server">
+    <title>Welcome To Soccer League</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
+</head>
+<body>
+   <div class="content">
+       <div class="header">
+           <div class="logo"><img src="images/logo.png"/></div>
+           <div class="title">Soccer Club</div>
+           <!--Pankaj Talwar #300986202-->
+           <div class="menubar">
+               <ul>
+                           <li><a href="Home.aspx">Home</a></li>
+                           <li><a href="Clubs.aspx">Clubs</a></li>
+                           <li><a href="AddClubs.aspx">Add Club</a></li>
+                           <li><a href="Results.aspx">Results</a></li>
+                           <li><a href="MatchScheduling.aspx">Match Schedule</a></li>
+                            <asp:Label ID="Label1" runat="server" Visible="false" ></asp:Label>
+                          <asp:Label ID="login" runat="server"  Visible="true" ></asp:Label>
+                   </ul>
+            </div>
+          </div>  
+        
+       <div class="main-content">
+           <asp:ContentPlaceHolder id="MainContent" runat="server">
+                
+   
+    </asp:ContentPlaceHolder>
+       </div>
+       <!--Pankaj Talwar #300986202-->
+       <div class="footer">
+           <br />
+           <br />
+           
+           <div>Soccer League-2018</div>
+           
+           
+       </div>
+       <div class="footerdrk">
+           <center>Pankaj Talwar<br />
+               300986202
+           </center>
+           </div>
+
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <!--Pankaj Talwar #300986202-->
+        </asp:ContentPlaceHolder>
+    </div>
+ </div>
+   
+</body>
+</html>

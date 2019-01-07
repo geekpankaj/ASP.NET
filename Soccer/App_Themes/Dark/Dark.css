@@ -1,0 +1,78 @@
+﻿
+/*Pankaj Talwar #300986202*/ 
+body {
+    margin-top: 0px;
+    background-color: #021602;
+}
+
+.btnstyle, .btnstylecan {
+    background-color: forestgreen;
+ 
+}
+.logout {
+    background-color: #c4fbbc;
+    color: forestgreen;
+    float: right;
+}
+about-text 
+{
+    color:white;
+}
+.content
+{
+    color:white;
+}
+.btnstylecan {
+    background-color: #640101;
+}
+.under_const {
+    background-color: #3c9f07;
+}
+
+.content {
+    box-shadow: 0px 10px -14px 14px #FFF;
+  
+}
+/*Pankaj Talwar #300986202*/ 
+.top-head, menubar {
+    justify-content: space-around;
+    margin: 0;
+    height: 40px;
+}
+
+.menubar ul {
+    justify-content: center;
+    font-family: cursive;
+}
+
+
+.top-head ul li:hover {
+    background-color: #113501;
+}
+
+
+.top-head ul li a, .menubar ul li a {
+   
+    color: #113501;
+}
+
+.menubar ul li a {
+    color: #c4fbbc;
+    font-size: 1.2em;
+}
+
+
+.footer, .footerdrk {
+    background-color: green;
+    color: #FFFFFF;
+}
+
+.footerdrk {
+    background-color: #113501;
+    
+}
+
+
+
+
+/*Pankaj Talwar #300986202*/ 

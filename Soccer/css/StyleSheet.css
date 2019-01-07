@@ -1,0 +1,245 @@
+﻿/*Pankaj Talwar #300986202*/ 
+body {
+    margin-top: 0px;
+}
+.gapregister 
+{
+    padding:-20px;
+}
+.container {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+.btnstyle, .btnstylecan {
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin-left: 5px;
+}
+/*Pankaj Talwar #300986202*/ 
+.btnstylecan{
+    background-color:firebrick;
+}
+.logout {
+    background-color:#c4fbbc;
+    color:forestgreen;
+    float:right;
+}
+.clubdetails
+{
+    width:50%;
+    display:inline-block;
+}
+.clubdetails td
+{
+    width:100%;
+    
+}
+    /*Pankaj Talwar #300986202*/ 
+    .clubdetails tr {
+        height: 50px;
+    }
+.player{
+    display:inline-block;
+    width:40%;
+    vertical-align:top;
+
+}
+.playerdetails{
+    width:100%;
+}
+
+.inputtext 
+{
+ border:1px solid black;
+border-radius:5px;
+
+}
+/*Pankaj Talwar #300986202*/ 
+.heading{
+    color:forestgreen;
+    align-content:center;
+}
+.matchdiv {
+    display: inline-block;
+    vertical-align: text-top;
+    margin:0px 20px 20px 20px;
+    padding:10px;
+    border: 1px solid #aeadad;
+}
+.error_msg,.success{
+    
+    padding:10px;
+}
+/*Pankaj Talwar #300986202*/ 
+.error_msg {
+    border: 2px solid firebrick;
+    background-color: #fc9e9e;
+    color: firebrick;
+    border-radius: 3px 4px;
+}
+.success
+{border:2px solid forestgreen;
+    background-color:#90dd85;
+    color:forestgreen;
+    border-radius:3px 4px;
+}
+.inputlabel 
+{
+    margin-left:10px;
+}
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
+}
+.top-head ,menubar{
+    background-color: #19bf00;
+    margin: 0;
+   height:40px;
+}
+.top-head ul ,.menubar ul{
+        
+        margin: 0;
+       height:100%;
+        padding: 0;
+        float: right;
+        
+        text-decoration: none;
+        list-style: none;
+}
+/*Pankaj Talwar #300986202*/ 
+.content1 {
+    font-family: cursive;
+}
+.header{
+    background-image:url("/images/background.jpg");
+    background-repeat:no-repeat;
+    width:100%;
+    background-size:120%;
+    
+}
+.menubar ul {
+    justify-content: center;
+    font-family: cursive;
+}
+.top-head ul li ,.menubar ul li{
+        text-align:right;
+        padding: 10px;
+}
+    .menubar ul li {
+        text-align: center;
+        display: inline-block;
+       
+    }
+/*Pankaj Talwar #300986202*/ 
+.top-head ul li:hover 
+{
+    background-color:#90dd85;
+   
+}
+.menubar ul li:hover{
+    text-shadow:none;
+    font-weight:bolder;
+}
+.top-head ul li a , .menubar ul li a
+{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+}
+.menubar ul li a {
+    color: #c4fbbc;
+    font-size:1.2em;
+}
+.logo ,.logo1{
+          
+           width:131px;
+    height: 129px;
+    display:inline-block;
+}
+.logo1 {
+    width: 150px;
+    height: 100px;
+    margin-left:20px;
+}
+/*Pankaj Talwar #300986202*/ 
+
+    .logo img {
+        width: auto;
+        align-content: center;
+    }
+.title {
+    font-family: cursive;
+    font-size: 50px;
+    font-variant: small-caps;
+    display:inline-block;
+   margin-left:50px;
+       text-align:center;
+    vertical-align:middle;
+    color:white;
+}
+.menubar {
+    margin: 0;
+    position: relative;
+    height: 40px;
+   
+}
+.menubar ul li ul li
+{
+    display:none;
+
+}
+    /*Pankaj Talwar #300986202*/ 
+   .menubar ul li ul:hover
+   {
+       display:block;
+   }
+.footer,.footerdrk {
+    text-align: center;
+    height: 100px;
+    font-family: cursive;
+    background-color: #19bf00;
+    color: white;
+    bottom: 0px;
+    top: 100px;
+}
+.footerdrk {
+    background-color: #074402;
+    height: 50px;
+}.about {
+    width: 30%;
+    display: inline-block;
+}
+.about img{
+    width:100%;
+   height:250px;
+    text-align:center;
+
+}
+/*Pankaj Talwar #300986202*/ 
+.about-text {
+    width: 60%;
+    font-family: cursive;
+    text-align: justify;
+    display: inline-block;
+    line-height: 40px;
+    margin-left:2%;
+    vertical-align:top;
+}
+
+.content1
+{
+    text-align:center;
+    font-weight:bold;
+}
+.homecontent
+{
+ margin-left:10px;
+ margin-right:10px;
+}
+/*Pankaj Talwar #300986202*/ 
