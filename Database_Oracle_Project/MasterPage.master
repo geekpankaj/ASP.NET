@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min. css" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <%--<a class="navbar-brand" href="#">Navbar</a>--%>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Default.aspx">Home <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="AddProduct.aspx">Add Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="UpdateProduct.aspx">Update Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="TrackStatus.aspx">Track Status</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="CalculateTax.aspx">Calculate Tax</a>
+      </li>
+        
+    </ul>
+   
+  </div>
+</nav>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
